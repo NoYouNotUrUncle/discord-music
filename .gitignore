@@ -2,6 +2,7 @@
 #ignores everything except for the 3 files in this repository
 *
 #repo files
+!.gitignore
 !DiscordMusic.plugin.js
 !DiscordMusic.config.json
 !README.md
