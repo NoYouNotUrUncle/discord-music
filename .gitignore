@@ -1,0 +1,7 @@
+#This gitignore should not track all files belonging to other betterdiscord plugins
+#ignores everything except for the 3 files in this repository
+*
+#repo files
+!DiscordMusic.plugin.js
+!DiscordMusic.config.json
+!README.md
