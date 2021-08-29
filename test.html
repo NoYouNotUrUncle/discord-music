@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <button id="id_start"><code>Start</code></button>
+    <button id="id_stop"><code>Stop</code></button>
+    <script src="DiscordMusic.plugin.js"></script>
+    <script>
+        let music = new DiscordMusic();
+        $('#id_start').click(() => music.start())
+        $('#id_stop').click(() => music.stop())
+    </script>
+</body>
+</html>
