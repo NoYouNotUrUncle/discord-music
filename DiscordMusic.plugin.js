@@ -27,6 +27,10 @@ function globalSetup(){
     global.css =
     `
     <style id="discord_music_styles">
+        @import url('https://fonts.cdnfonts.com/css/whitney-2');
+        :root{
+            font-family: 'Whitney', sans-serif;
+        }
         .pop-up{
             position: fixed;
             z-index: 1200;
